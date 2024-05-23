@@ -2,6 +2,9 @@ import requests
 import os
 import json
 
+API_KEY = os.getenv('DANBOORU_API_KEY')
+USERNAME = os.getenv('DANBOORU_USERNAME')
+
 url = "https://danbooru.donmai.us/"
 
 def fetch_images(base_url, character_tag, other_tags=[]):
@@ -11,6 +14,8 @@ def fetch_images(base_url, character_tag, other_tags=[]):
 
     #temporary limit of 100 for api reasons
     params = {
+        'login': USERNAME,
+        'api_key': API_KEY,
         'tags': tags,
         'limit': 100,
         'page': 1
