@@ -1,6 +1,10 @@
-# moonscraper
+# moonscraper v1.0.3
 Character-based Danbooru image scraper for organizing datasets based on given character and other tags.
 Mainly focused on gathering character data for image-based Machine Learning training.
+
+v1.0.3 Image + Tags
+- Now includes tags along with images, sorted for immediate AI training after scrape
+- Please revert to previous version (v1.0.2) in order to collect solely images.
 
 # Requirements:
 Run in terminal: ```pip install -r requirements.txt```
