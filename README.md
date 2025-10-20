@@ -1,6 +1,6 @@
 # moonscraper v1.0.3
-Character-based Danbooru image scraper for organizing datasets based on given character and other tags.
-Mainly focused on gathering character data for image-based Machine Learning training.
+Tag based booru image scraper with a simple ui for organizing datasets based on given character and other tags.
+Repo is focused on gathering character data for image-based Machine Learning training.
 
 v1.0.3 Image + Tags
 - Now includes tags along with images, sorted for immediate AI training after scrape
